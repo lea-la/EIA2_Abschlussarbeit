@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    <title>Ice Cream Shop</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+     <div id="creation">
+    <fieldset class="addition">
+
+        <form action="">
+            
+            <fieldset id="size">
+                <legend>Size</legend>
+                <select name="size" id="size">
+                    <option value="Small" price="2.50">Small</option>
+                    <option value="Medium" price="3.00">Medium</option>
+                    <option value="Large" price="4.00">Large</option>
+                </select>
+            </fieldset><br>
+            <fieldset id="flavor">
+                <legend>Flavor</legend>
+                <input type="radio" name="flavor" id="chocolate" value="Chocolate" price="0.50" checked />
+                <label for="chocolate">Chocolate</label>
+                <input type="radio" name="flavor" id="vanilla" value="Vanilla" price="0.50" />
+                <label for="vanilla">Vanilla</label>
+                <input type="radio" name="flavor" id="strawberry" value="Strawberry" price="0.70" />
+                <label for="strawberry">Strawberry</label>
+                <input type="radio" name="flavor" id="mint" value="Mint" price="0.70" />
+                <label for="mint">Mint</label>
+            </fieldset><br>
+            <fieldset id="coat">
+                <legend>Coat</legend>
+                <input type="radio" name="coat" id="miChocolate" value="MilkChocolate" price="0.10" checked />
+                <label for="miChocolate">Milk Chocolate</label>
+                <input type="radio" name="coat" id="wiChocolate" value="WhiteChocolate" price="0.20" />
+                <label for="wiChocolate">White Chocolate</label>
+                <input type="radio" name="coat" id="dachocolate" value="DarkChocolate" price="0.10" />
+                <label for="dachocolate">Dark Chocolate</label>
+            </fieldset><br>
+
+            <fieldset id="toppings">
+                <legend>Toppings</legend>
+                <input type="checkbox" name="toppings" id="almonds" value="Almonds" price="0.50">
+                <label for="almonds">Almonds</label>
+                <input type="checkbox" name="toppings" id="roseBlossoms" value="roseBlossoms" price="1.00">
+                <label for="roBlossoms">Rose Blossoms</label>
+                <input type="checkbox" name="toppings" id="gold" value="Gold" price="3.00">
+                <label for="gold">Gold</label>
+            </fieldset><br>
+            <div id="price" name="price"></div>
+            <label for="nameIn">name creation</label>
+            <input type="text" name="name" id="nameIn"> <br>
+
+        </form>
+       
+        <input type="submit" value="Add Creation">
+        <button>Start Game</button>
+
+        <div id="savedCreations">
+        </div>
+    </fieldset>
+     </div>
+</body>
+
+</html>
