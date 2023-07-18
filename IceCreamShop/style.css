@@ -1,60 +1,83 @@
 body {
-    font-size: 1em;
-    height: max-content;
-    background: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif
-  }
-  
- 
+  font-size: 1em;
+  height: max-content;
+  background: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif
+}
 
-  input[type=text] {
-    border: none;
-    border-bottom: 2px solid red;
-    background-color: rgb(60, 59, 59);
-    color: white;
-  }
-  
+input[type=text] {
+  border: none;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  padding: 8px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 fieldset {
-    border: none;
+  border: none;
 }
-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    
-    
-}
-  
 
-  
-  #savedCreations {
-    top: 3em;
-    position: relative;
-    text-align: center;
-  }
-  
-  .entry {
-    width: 100%;
-    background-color: rgba(228, 155, 205, 0.5);
-    margin: 5px;
-  }
-  
-  
-  
- 
-  
-  .name {
-    font-size: 1em;
-  }
-  
-  #creation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin-top: 2%;
-    background-color:rgba(0,0,0,0.50);
-  }
+.input-container {
+  display: flex;
+  align-items: center; /* Optional: Zentriert die Elemente vertikal */
+}
+
+#nameLabel {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  margin-left: 15px;
+  background-color: #ffffff;
+  border: 1px solid #00aeff;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+#savedCreations {
+  margin-top: 15px;
+  position: relative;
+  text-align: left;
+}
+
+#price {
+  margin-left: 15px;
+  margin-top: -15px;
+}
+
+.entry {
+   background-color: rgb(35, 35, 35);
+  margin: 10px;
+  padding: 10px;
+}
+
+.name {
+  font-size: 1em;
+}
+
+#creation {
+  position:absolute;
+  top: 26px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.700);
+  padding: 10px;
+}
+
+button{
+  background-color: #ffffff;
+  border: 1px solid #00aeff;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+select{
+  background-color: #ffffff;
+  border: 1px solid #00aeff;
+  border-radius: 12px;
+  padding: 5px;
+}
